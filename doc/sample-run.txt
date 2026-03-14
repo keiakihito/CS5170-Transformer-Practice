@@ -1,0 +1,51 @@
+# Trainig loop improve text output after certain traing loop
+
+~/Dropbox/Academic/CalPolyPomona/2026/CS5170/Transformer/sandbox main* 4m 17s
+.venv ❯ PYTHONPATH=. python3 src/train.py
+Using device: mps
+Vocab size: 58
+Number of parameters: 10.79M
+Model parameters: 10.79M
+step 0: train loss 4.0710, val loss 4.0681
+
+
+LLPJPgOyVk
+hesgwHywGkfOYnO,amLaFRRk,tDVbjcns.mLcpt- V o!!crtyjFqx,!,:wARnNvY.;rkLPrSD;MxpHBPA.xCeS,
+--------------------------------------------------
+step 20: train loss 3.0092, val loss 2.9876
+
+,,,ldchdjNo mheb
+'n
+Tbfe theyonvjV
+MVrkithavAaseiuGneaIiRaveavset ?e?enersorefitrFWe q whepeGthe,Met
+--------------------------------------------------
+step 40: train loss 2.6264, val loss 2.6079
+
+Jzut u.gGbie sizenCI carl, w mg ird oure t leselchabe thek nolyes the wh:eost,u Chavakvos woulAlgews
+--------------------------------------------------
+step 60: train loss 2.4993, val loss 2.4954
+
+S
+IRID!--qlind pof we blrekr by.
+G!Aange he go; otd Hutrecfeur, tr tmireirst' int f r?
+ELIUFe tu he 
+--------------------------------------------------
+step 80: train loss 2.4509, val loss 2.4558
+
+Hiun:
+S: hesirre thac Eisttoutoung e s!
+Tchoun w at genld uml, t how ll,
+DI thoren: ca,
+cel sainowim
+--------------------------------------------------
+step 99: train loss 2.4219, val loss 2.4308
+
+Fke g;
+Sis
+MAllousd ckd
+LARTIAl foles.
+IB:
+I cwifofis, ire i's d noururgadspr all issis yicofind bls
+--------------------------------------------------
+
+~/Dropbox/A

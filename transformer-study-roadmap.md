@@ -17,10 +17,10 @@
 
 ## 🔧 環境
 
--   [ ] Python環境構築（venv / conda）
--   [ ] PyTorchインストール
--   [ ] pytestインストール
--   [ ] 最小プロジェクト構成作成
+-   [x] Python環境構築（venv / conda）
+-   [x] PyTorchインストール
+-   [x] pytestインストール
+-   [x] 最小プロジェクト構成作成
 
 ```{=html}
 <!-- -->
@@ -44,9 +44,9 @@ Attentionの「保証」を理解する。
 
 ## Step 1: 数式を読む
 
--   [ ] Scaled Dot-Product Attentionの式を書く
--   [ ] softmaxの意味を説明できる
--   [ ] √d_k で割る理由を理解する
+-   [x] Scaled Dot-Product Attentionの式を書く
+-   [x] softmaxの意味を説明できる
+-   [x] √d_k で割る理由を理解する
 
 数式：
 
@@ -56,9 +56,9 @@ Attention(Q,K,V) = softmax((QK\^T)/√d_k)V
 
 ## Step 2: 実装（50行以内）
 
--   [ ] Q, K, Vを受け取る関数を書く
--   [ ] softmax前のscoreを出力できるようにする
--   [ ] weight matrixを確認できるようにする
+-   [x] Q, K, Vを受け取る関数を書く
+-   [x] softmax前のscoreを出力できるようにする
+-   [x] weight matrixを確認できるようにする
 
 ------------------------------------------------------------------------
 
@@ -66,10 +66,10 @@ Attention(Q,K,V) = softmax((QK\^T)/√d_k)V
 
 ### 🔬 構造保証テスト
 
--   [ ] 出力shapeが正しい
--   [ ] Q=Kのとき対角成分が最大傾向になる
--   [ ] 同一tokenを入れると均等分布に近づく
--   [ ] attention weightの各行が1になる
+-   [x] 出力shapeが正しい
+-   [x] Q=Kのとき対角成分が最大傾向になる
+-   [x] 同一tokenを入れると均等分布に近づく
+-   [x] attention weightの各行が1になる
 
 ------------------------------------------------------------------------
 
@@ -90,17 +90,17 @@ headの意味を構造的に理解する。
 
 ## Step 1: 実装
 
--   [ ] Linear projectionを追加
--   [ ] head分割実装
--   [ ] concat後にlinear
+-   [x] Linear projectionを追加
+-   [x] head分割実装
+-   [x] concat後にlinear
 
 ------------------------------------------------------------------------
 
 ## Step 2: テスト
 
--   [ ] head=1 と head=8 で出力分布比較
--   [ ] 各headの出力が独立していること確認
--   [ ] concat後shape保証
+-   [x] head=1 と head=8 で出力分布比較
+-   [x] 各headの出力が独立していること確認
+-   [x] concat後shape保証
 
 ------------------------------------------------------------------------
 
@@ -146,9 +146,9 @@ x → MultiHead → Add → LayerNorm ↓ FFN → Add → LayerNorm
 
 ## 🔬 テスト
 
--   [ ] 残差なしで勾配が小さくなるか確認
--   [ ] LayerNormなしで出力分散が増えるか確認
--   [ ] Encoder blockの出力shape保証
+-   [x] 残差なしで勾配が小さくなるか確認
+-   [x] LayerNormなしで出力分散が増えるか確認
+-   [x] Encoder blockの出力shape保証
 
 ------------------------------------------------------------------------
 
@@ -158,10 +158,10 @@ x → MultiHead → Add → LayerNorm ↓ FFN → Add → LayerNorm
 
 自作とのdiffを取る。
 
--   [ ] Harvard annotated transformerをclone
--   [ ] 自作との構造差分をメモ
--   [ ] mask処理を理解
--   [ ] positional encodingを理解
+-   [x] Harvard annotated transformerをclone
+-   [x] 自作との構造差分をメモ
+-   [x] mask処理を理解
+-   [x] positional encodingを理解
 
 ------------------------------------------------------------------------
 
